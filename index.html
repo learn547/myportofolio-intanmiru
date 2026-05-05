@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<title>Portofolio Intan Amelia Miru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Jost:wght@200;300;400;500;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="opening-screen" id="opening">
+  <div class="opening-inner">
+    <div class="opening-tag">Portofolio</div>
+    <div class="opening-name">Intan Amelia Miru</div>
+    <div class="opening-rule">
+      <span class="line"></span>
+      <span class="diamond"></span>
+      <span class="line"></span>
+    </div>
+    <div class="opening-sub">Pendidikan Teknologi Informasi &nbsp;&middot;&nbsp; UNESA</div>
+    <div class="opening-dots">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="opening-countdown" id="countdown">3</div>
+  </div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <h2 class="logo">Intan Miru<span class="logo-dot"></span></h2>
+
+  <ul class="menu" id="menu">
+    <li><a href="#home"       onclick="closeMenu()">Home</a></li>
+    <li><a href="#about"      onclick="closeMenu()">About</a></li>
+    <li><a href="#skills"     onclick="closeMenu()">Skills</a></li>
+    <li><a href="#pengalaman" onclick="closeMenu()">Pengalaman</a></li>
+    <li><a href="#project"    onclick="closeMenu()">Project</a></li>
+    <li><a href="#Pendidikan" onclick="closeMenu()">Pendidikan</a></li>
+    <li><a href="#contact"    onclick="closeMenu()">Contact</a></li>
+    <li>
+      <button onclick="toggleDarkMode()" class="dark-btn-menu" id="darkBtn">
+        <i class="fa-solid fa-moon" id="darkIcon"></i>
+        <span id="darkLabel">Dark</span>
+      </button>
+    </li>
+  </ul>
+
+  <div class="hamburger" onclick="toggleMenu()" id="hamburgerBtn">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+</nav>
+
+<section id="home" class="home show">
+  <div class="home-content">
+    <div class="home-text">
+      <div class="home-eyebrow">Portofolio</div>
+      <h1>Hai, Aku <em>Intan<br>Amelia Miru</em></h1>
+      <h3><span id="typing"></span></h3>
+      <p>
+        Saya Mahasiswa dari Program Studi Pendidikan Teknologi Informasi di Universitas Negeri Surabaya, saat ini sedang di semester 4.
+        Saya pribadi yang senang mencoba hal-hal baru dan terus belajar untuk mengembangkan diri.
+      </p>
+    </div>
+    <div class="home-image">
+      <img src="img_intan/myphototan.png" class="foto" alt="Intan Amelia Miru">
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-container">
+    <img src="img_intan/Taanpict.jpg" class="about-foto" alt="Foto Intan">
+    <div class="about-text">
+      <p>Perkenalkan, nama saya Intan Amelia Miru, biasa dipanggil Intan. Saat ini saya merupakan mahasiswa semester 4 pada program studi Pendidikan Teknologi Informasi di Universitas Negeri Surabaya.</p>
+      <p>Program Studi Pendidikan Teknologi Informasi merupakan bidang yang mempelajari pemanfaatan teknologi dalam dunia pendidikan, mulai dari pengembangan media pembelajaran, pengelolaan sistem informasi pendidikan, hingga penerapan teknologi untuk mendukung proses belajar mengajar secara efektif dan inovatif.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+
+  <p class="project-desc">
+    Berikut beberapa kemampuan yang saya miliki dan terus kembangkan selama masa perkuliahan maupun kegiatan sehari-hari.
+  </p>
+
+  <div class="skills-container">
+    <div class="skill-card"><i class="fa-solid fa-code"></i><p>Basic Coding</p></div>
+    <div class="skill-card"><i class="fa-solid fa-palette"></i><p>Canva Design</p></div>
+    <div class="skill-card"><i class="fa-solid fa-table"></i><p>Excel Basics</p></div>
+    <div class="skill-card"><i class="fa-solid fa-file-powerpoint"></i><p>PowerPoint Design</p></div>
+  </div>
+</section>
+
+<section id="pengalaman">
+  <h2 class="section-title">Pengalaman</h2>
+
+  <p class="project-desc">
+    Berikut beberapa pengalaman berkesanku, mulai dari proyek sekolah, dan event. Klik pada card untuk melihat lebih jelas fotonya.
+  </p>
+
+  <div class="pengalaman-container">
+
+    <div class="pengalaman-card">
+      <div class="pengalaman-image">
+        <img src="img_intan/SMAProject.jpg" alt="Fishcakers">
+        <div class="pengalaman-overlay">
+          <a href="img_intan/SMAProject.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+        </div>
+      </div>
+      <h3>Proyek P5 — FISHCAKERS</h3>
+      <p>Saat SMA saya mengolah hasil pengasapan ikan menjadi produk turunan pempek ikan, lalu dijadikan bisnis dan dijual kepada orang-orang.</p>
+    </div>
+
+    <div class="pengalaman-card">
+      <div class="pengalaman-image">
+        <img src="img_intan/EventDBL.jpg" alt="DBL Dance">
+        <div class="pengalaman-overlay">
+          <a href="img_intan/EventDBL.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+        </div>
+      </div>
+      <h3>DBL Dance 2023</h3>
+      <p>Bergabung dalam event DBL Papua sebagai Tim Dance untuk mendampingi Tim Basket dari SMA.</p>
+    </div>
+
+    <div class="pengalaman-card">
+      <div class="pengalaman-image">
+        <img src="img_intan/PanitiaWHG.jpg" alt="WHG">
+        <div class="pengalaman-overlay">
+          <a href="img_intan/PanitiaWHG.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+        </div>
+      </div>
+      <h3>Panitia WHG</h3>
+      <p>Menjadi panitia penerimaan mahasiswa baru dan berperan sebagai mentor bagi para siswa baru.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="project">
+  <h2 class="section-title">Project</h2>
+
+  <p class="project-desc">Berikut beberapa projek kuliah yang dikerjakan secara berkelompok selama beberapa semester terakhir. Klik pada card untuk melihat detail foto dan link github aku.</p>
+
+  <div class="project-container">
+
+    <div class="project-card">
+      <img src="img_intan/CoffeGoProject1.jpg" alt="CoffeGo">
+      <div class="project-overlay">
+        <h3>Aplikasi CoffeGo</h3>
+        <div class="project-btn">
+          <a href="img_intan/CoffeGoProject1.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+          <a href="https://github.com/learn547/App-CoffeGo" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="img_intan/RunningFestProject1.jpg" alt="Running Fest">
+      <div class="project-overlay">
+        <h3>Website Running Fest UNESA</h3>
+        <div class="project-btn">
+          <a href="img_intan/RunningFestProject1.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+          <a href="https://github.com/learn547/Website-Running-Fest-UNESA.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="img_intan/KewirausahaanProject1.jpg" alt="Circle X'Sories">
+      <div class="project-overlay">
+        <h3>Circle X'Sories</h3>
+        <div class="project-btn">
+          <a href="img_intan/KewirausahaanProject1.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+          <a href="https://drive.google.com/file/d/1bJlVX5OIDVTrJE4VwA4Qfd4XRe_k4QFq/view?usp=sharing" target="_blank"><i class="fa-brands fa-google-drive"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="img_intan/GrafkomProject1.jpg" alt="Object 3D">
+      <div class="project-overlay">
+        <h3>Object 3D Gedung FBS UNESA</h3>
+        <div class="project-btn">
+          <a href="img_intan/GrafkomProject1.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+          <a href="https://github.com/learn547/Object3DGedungFBSUnesa_Kelompok-9-2024C" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="sertifikat">
+  <h2 class="section-title">Sertifikat</h2>
+ <p class="project-desc">
+    Berikut beberapa sertifikat yang aku peroleh selamat perkuliahan saat ini, klik pada card untuk melihat detail foto dan dokumen.
+  </p>
+
+  <div class="sertifikat-container">
+
+    <div class="sertifikat-card">
+      <img src="img_intan/SertifWebinarIntan.png" alt="Sertif Webinar">
+      <div class="sertifikat-overlay">
+        <a href="img_intan/SertifWebinarIntan.png" target="_blank"><i class="fa-solid fa-eye"></i></a>
+      </div>
+      <p>Webinar Cyber Security: Introduction to SOC &amp; Wazuh SIEM</p>
+    </div>
+
+    <div class="sertifikat-card">
+      <img src="img_intan/HKIRunningFest.jpg" alt="HKI Running Fest">
+      <div class="sertifikat-overlay">
+        <a href="img_intan/HKIRunningFest.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+        <a href="https://drive.google.com/file/d/1GpfeLSSyPm1eOr0bjnF1caOF0JB-siGa/view?usp=drive_link" target="_blank"><i class="fa-brands fa-google-drive"></i></a>
+      </div>
+      <p>HKI UNESA Run — Race Info &amp; Training Plan</p>
+    </div>
+
+    <div class="sertifikat-card">
+      <img src="img_intan/SertifJurnal.jpg" alt="Sertif Jurnal">
+      <div class="sertifikat-overlay">
+        <a href="img_intan/SertifJurnal.jpg" target="_blank"><i class="fa-solid fa-eye"></i></a>
+        <a href="https://drive.google.com/file/d/14LQD1ND-_MI8BPVrBWPtC444APew0T_C/view?usp=drive_link" target="_blank"><i class="fa-brands fa-google-drive"></i></a>
+      </div>
+      <p>Sertifikat Penulis Artikel — LearnSpace</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="Pendidikan">
+  <h2 class="section-title">Pendidikan</h2>
+
+  <p class="project-desc">
+    Timeline perjalanan pendidikan saya dari sekolah menengah hingga masuk perkuliahan saat ini.
+  </p>
+
+  <div class="edu-modern">
+    <div class="edu-modern-card">
+      <img src="img_intan/Kartikalogo.png" alt="SMP">
+      <h3>SMP</h3>
+      <p>SMP Kartika VI-1 Jayapura</p>
+      <span>2018 – 2020</span>
+    </div>
+    <div class="edu-modern-card">
+      <img src="img_intan/SMAlogo.png" alt="SMA">
+      <h3>SMA</h3>
+      <p>SMA Kristen Kalam Kudus Jayapura</p>
+      <span>2021 – 2024</span>
+    </div>
+    <div class="edu-modern-card">
+      <img src="img_intan/myunivlogo.png" alt="Kuliah">
+      <h3>Kuliah</h3>
+      <p>Universitas Negeri Surabaya</p>
+      <span>2024 – Sekarang</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+
+  <p class="project-desc">
+  Hubungi aku lewat media sosial atau email di bawah ini ya!
+  </p>
+
+  <div class="contact-container">
+    <a href="https://instagram.com/intanmiru" target="_blank" class="contact-card">
+      <i class="fa-brands fa-instagram"></i>
+      <p>@intanmiru</p>
+    </a>
+    <a href="mailto:intanmiru5@gmail.com?subject=Kerja%20Sama&body=Halo%20Intan,%20saya%20tertarik%20untuk%20berkolaborasi." class="contact-card">
+      <i class="fa-solid fa-envelope"></i>
+      <p>intanmiru5@gmail.com</p>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 &nbsp;&middot;&nbsp; Portofolio Intan Miru</p>
+</footer>
+
+<script src="js/typed.js"></script>
+<script>
+
+new Typed("#typing", {
+  strings: [
+    "Mahasiswa Pendidikan Teknologi Informasi",
+    "Selamat datang di portofolio saya",
+    "Mari lihat informasi tentangku"
+  ],
+  typeSpeed: 58, backSpeed: 36, loop: true
+});
+
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
+  const isDark = document.body.classList.contains("dark-mode");
+  document.getElementById("darkIcon").className = isDark ? "fa-solid fa-sun" : "fa-solid fa-moon";
+  document.getElementById("darkLabel").textContent = isDark ? "Light" : "Dark";
+}
+
+function toggleMenu() { document.getElementById("menu").classList.toggle("show"); }
+function closeMenu()  { document.getElementById("menu").classList.remove("show"); }
+document.addEventListener("click", function(e) {
+  const menu = document.getElementById("menu");
+  const btn  = document.getElementById("hamburgerBtn");
+  if (!menu.contains(e.target) && !btn.contains(e.target)) menu.classList.remove("show");
+});
+
+window.addEventListener("scroll", () => {
+  document.getElementById("navbar").classList.toggle("scroll", window.scrollY > 30);
+});
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) entry.target.classList.add("show");
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll("section").forEach(s => observer.observe(s));
+
+window.addEventListener("load", () => {
+  const totalDetik = 3;
+  const cdEl = document.getElementById("countdown");
+  let sisa = totalDetik;
+
+  function updateCountdown() {
+    cdEl.style.animation = "none";
+    cdEl.offsetHeight;
+    cdEl.style.animation = "countPulse 1s ease-in-out";
+    cdEl.textContent = sisa;
+    sisa--;
+  }
+
+  updateCountdown();
+  const interval = setInterval(() => {
+    if (sisa > 0) { updateCountdown(); }
+    else { clearInterval(interval); }
+  }, 1000);
+
+  setTimeout(() => {
+    document.getElementById("opening").classList.add("hide");
+  }, totalDetik * 1000);
+});
+
+</script>
+</body>
+</html>
