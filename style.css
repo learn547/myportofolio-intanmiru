@@ -413,6 +413,28 @@ section.show { opacity: 1; transform: translateY(0); }
   transform: translateY(-6px);
 }
 .project-overlay h3 { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 17px; margin-bottom: 12px; text-align: center; }
+.project-mini-desc {
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.88);
+  text-align: center;
+  margin-bottom: 9px;
+  font-weight: 300;
+}
+
+.project-tech {
+  font-family: 'Jost', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.78);
+  margin-bottom: 10px;
+}
+
+.project-overlay h3 {
+  margin-bottom: 6px;
+}
+
 .project-btn { display: flex; gap: 10px; }
 .project-btn a {
   width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
